@@ -8,7 +8,7 @@
     "start": "node build/src/main.ts",
     "build": "tsc -p tsconfig.json",
     "lint": "eslint . --ext .ts --ext .mts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "Hemil <hemilpate41196@gmail.com>",
@@ -25,6 +25,7 @@
     "prettier": "^3.0.2",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
   }
 }
